@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p{
+    text-align: center;
+}
+body{
+    background-color:#DBE9FA;
+}
+.buttons button{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:5px;
+    border-radius:18px;
+    margin-bottom: 20px;
+    font-size:15px;
+}
+.start{
+    background-color: greenyellow;
+    border: none;
+}
+.stop{
+    background-color: red;
+    border: none;
+}
+.pause{
+    background-color: orange;
+    border: none;
+}
+.start:hover{
+    border: 2px solid black;
+    scale: 1.10;
+}
+.stop:hover{
+    border: 2px solid black;
+    scale: 1.10;
+}
+.pause:hover{
+    border: 2px solid black;
+    scale: 1.10;
+}
+.apple-container{
+    position:relative;
+}
+.apple-text{
+    position: absolute;     
+    top: 50%;                
+    left: 50%;               
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-family: 'Orbitron',sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.apple-text:hover{
+     color:yellow; /* TODO :when the timer goes below 15 second, change the
+text color to red and add a background color with rounded corners of 5px to
+make it stand out from the apple. 
+*/
+}
